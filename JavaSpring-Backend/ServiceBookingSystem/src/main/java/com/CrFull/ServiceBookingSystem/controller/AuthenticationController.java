@@ -28,4 +28,15 @@ public class AuthenticationController {
 
     }
 
+    @PostMapping("/company/sign-up")
+    public ResponseEntity<?> signupCompany(@RequestBody SignupRequestDTO signupRequestDTO){
+        if(authService.presentByEmail(signupRequestDTO.getEmail())){
+            return new ResponseEntity<>( "Company already exists with this email!", HttpStatus.NOT_ACCEPTABLE);
+        }
+
+        UserDto createUser = authService.signupClient(signupRequestDTO);
+        return new ResponseEntity<>( createUser, HttpStatus.OK);
+
+    }
+
 }
