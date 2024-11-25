@@ -5,4 +5,5 @@ import com.CrFull.ServiceBookingSystem.dto.UserDto;
 
 public interface AuthService {
     public UserDto signupClient(SignupRequestDTO signupRequestDTO);
+    Boolean presentByEmail(String email);
 }
