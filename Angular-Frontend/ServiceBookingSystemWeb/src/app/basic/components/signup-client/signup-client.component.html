@@ -2,10 +2,10 @@
     <div class="parent">
         <div class="child">
             <div class="nz-col">
-                <h1 style="margin-left: 55px"></h1>
+                <h1>Client Signup</h1>
             </div>
 
-            <form nz-form[formGroup]="validateForm" (ngSubmit)="submitForm()">
+            <form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
 
                 <nz-form-item>
                     <nz-form-control nzHasFeedback nzErrorTips="The input is not a valid Email!">
