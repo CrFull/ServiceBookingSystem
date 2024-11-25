@@ -1,33 +1,42 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
+import {AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RouterModule, Routes } from '@angular/router';  
+import { LoginComponent } from './basic/components/login/login.component';
+import { SignupComponent } from './basic/components/signup/signup.component';
 import { DemoNgZorroAntdModule } from './DemoNgZorroAntdModule';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { en_US } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+import { HttpClientModule } from '@angular/common/http';
 
-
-const appRoutes: Routes = [
-  
-  { path: '', component: AppComponent },
-  { path: 'company', loadChildren: () => import('./company/company.module').then(m => m.CompanyModule) },
-  { path: 'client', loadChildren: () => import('./client/client.module').then(m => m.ClientModule) },
-  
-];
+registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes),
+    AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
     DemoNgZorroAntdModule,
     ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    { provide: NZ_I18N, useValue: en_US }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
