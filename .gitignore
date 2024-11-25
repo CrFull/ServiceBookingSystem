@@ -1,0 +1,49 @@
+# Geral
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Configurações do Sistema Operacional
+.idea/
+.vscode/
+*.iml
+
+# Node.js (Angular Frontend)
+Angular-Frontend/node_modules/
+Angular-Frontend/dist/
+Angular-Frontend/tmp/
+Angular-Frontend/.angular/
+Angular-Frontend/.env
+
+# Java (Spring Backend)
+JavaSpring-Backend/target/
+JavaSpring-Backend/bin/
+JavaSpring-Backend/.settings/
+JavaSpring-Backend/.classpath
+JavaSpring-Backend/.project
+JavaSpring-Backend/.idea/
+JavaSpring-Backend/.env
+
+# Logs do Java
+*.log
+
+# Maven
+JavaSpring-Backend/.mvn/
+JavaSpring-Backend/mvnw*
+JavaSpring-Backend/pom.xml.tag
+JavaSpring-Backend/pom.xml.releaseBackup
+JavaSpring-Backend/pom.xml.versionsBackup
+
+# MySQL (se usar dumps ou backups locais)
+*.sql
+*.sql.gz
+
+# Arquivos Temporários do Sistema
+*.~*~
+*.tmp
+*.bak
+*.swp
+*.swo
