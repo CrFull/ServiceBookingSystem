@@ -1,5 +1,6 @@
 package com.CrFull.ServiceBookingSystem.entity;
 
+import com.CrFull.ServiceBookingSystem.dto.UserDto;
 import com.CrFull.ServiceBookingSystem.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -24,4 +25,13 @@ public class User {
     private String phone;
 
     private UserRole role;
+
+    public UserDto getDto(){
+        UserDto userDto = new UserDto();
+        userDto.setId(id);
+        userDto.setName(name);
+        userDto.setEmail(email);
+        userDto.setRole(role);
+        return userDto;
+    }
 }
