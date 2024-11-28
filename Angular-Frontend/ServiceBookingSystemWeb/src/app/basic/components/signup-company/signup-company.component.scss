@@ -6,28 +6,29 @@
     width: 70px;
 }
 
-.child{
-    padding: 50px;
-    position: absolute;
-    width: 380;
-    background-color: white;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 1px 1px 15px -7px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    margin-bottom: 22px;
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7f9;
+    padding: 20px;
 }
+
+.child {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px -7px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 380px;
+    width: 100%;
+}
+
 
 nz-form-control{
     min-width: 280px;
 }
 
-.parent{
-    width: 100%;
-    height: 91vh;
-    position: relative;
-}
+
 
 .login-form-margin{
     margin-bottom: 16px;
