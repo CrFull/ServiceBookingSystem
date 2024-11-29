@@ -53,7 +53,7 @@ npm install
 Backend:
  1. Mysql:
    - Install the Mysql Installer https://dev.mysql.com/downloads/installer/
-   - Install Mysql Server and Mysql Worbench
+   - Install Mysql Server and Mysql Workbench
     
  2. Java Spring:
    - Install the JDK 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
