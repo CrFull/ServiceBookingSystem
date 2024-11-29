@@ -20,7 +20,7 @@ This is a a project that i've build following the **Code Elevate** project. Usin
 **Data Base**:
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo" width="50" />
 
-    -Mysql;
+    - Mysql;
 
 ## Prerequisites
 
