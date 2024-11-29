@@ -53,18 +53,18 @@ npm install
 ```
 Backend:
  1. Mysql:
-   Install the Mysql Installer https://dev.mysql.com/downloads/installer/
-   Install Mysql Server and Mysql Worbench
+   - Install the Mysql Installer https://dev.mysql.com/downloads/installer/
+   - Install Mysql Server and Mysql Worbench
     
  2. Java Spring:
-   Install the JDK 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-   An IDE for opening the Java Spring File and build the project(maven). Suggestion: Intelij https://www.jetbrains.com/pt-br/idea/
-   Make sure to point the right JDK to build the project. On InteliJ: File>Project Structure> select the JDK 17 path.
+   - Install the JDK 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+   - An IDE for opening the Java Spring File and build the project(maven). Suggestion: Intelij https://www.jetbrains.com/pt-br/idea/
+   - Make sure to point the right JDK to build the project. On InteliJ: File>Project Structure> select the JDK 17 path.
 
 ### 3. Run the Project
 Backend:
-  Build the project on ServiceBookingSystemApplication main class.
-  Make sure mysql server is running(mysqld on Task Manager)
+  - Build the project on ServiceBookingSystemApplication main class.
+  - Make sure mysql server is running(mysqld on Task Manager)
 Frontend:
   1. Go to frontend:
 ```bash
