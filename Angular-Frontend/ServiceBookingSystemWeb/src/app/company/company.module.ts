@@ -1,20 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Routes, RouterModule } from '@angular/router';
+import { CompanyRoutingModule } from './company-routing-module';
 import { CompanyComponent } from './company.component';
-
-
-const routes: Routes = [
-  { path: '', component: CompanyComponent }
-];
+import { CompanyDashboardComponent } from './pages/company-dashboard/company-dashboard.component';
 
 @NgModule({
   declarations: [
-    CompanyComponent
+    CompanyComponent 
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    CompanyRoutingModule,
+    CompanyDashboardComponent 
   ]
 })
 export class CompanyModule { }
