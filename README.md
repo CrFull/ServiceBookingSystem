@@ -42,7 +42,7 @@ Follow the steps below to download and run the project locally:
 git clone https://github.com/CrFull/ServiceBookingSystem
 ```
 ### 2. Install Dependencies
--Frontend:
+- Frontend:
  1. Go to frontend:
 ```bash
 npm install -g @angular/cli@16
@@ -52,7 +52,7 @@ cd Angular-Frontend
 ```bash
 npm install
 ```
--Backend:
+- Backend:
  1. Mysql:
    - Install the Mysql Installer https://dev.mysql.com/downloads/installer/
    - Install Mysql Server and Mysql Workbench
@@ -63,10 +63,10 @@ npm install
    - Make sure to point the right JDK to build the project. On InteliJ: File>Project Structure> select the JDK 17 path.
 
 ### 3. Run the Project
--Backend:
+- Backend:
   - Build the project on ServiceBookingSystemApplication main class.
   - Make sure mysql server is running(mysqld on Task Manager)
--Frontend:
+- Frontend:
   1. Go to frontend:
 ```bash
 cd Angular-Frontend
