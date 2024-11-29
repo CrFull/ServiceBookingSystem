@@ -17,7 +17,7 @@ This is a a project that i've build following the **Code Elevate** project. Usin
     - Java Spring;
   
 **Data Base**:
--<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo" width="50" />
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo" width="50" />
   -Mysql;
 
 ## Prerequisites
