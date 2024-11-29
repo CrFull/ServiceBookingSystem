@@ -9,9 +9,10 @@ Client:   View ads, hire ads, view hired ads;
 ## Technologies Used
 
 **Frontend**:
-  - ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white | width=50)  
-![NG-ZORRO Logo](https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/logo.svg | width=50)  
-![TypeScript](https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png | width=50)
+  - <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" width="50" />
+<img src="https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/logo.svg" width="50" />
+<img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" width="50" />
+
 
 
        - Angular 16, NG Zorro, Typscript;
