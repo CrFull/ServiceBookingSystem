@@ -15,11 +15,11 @@ Client:   View ads, hire ads, view hired ads;
     
 **Backend**:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Framework Logo" width="50" />
-       - Java Spring;
+        - Java Spring;
   
 **Data Base**:
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo" width="50" />
-   - Mysql;
+      - Mysql;
 
 ## Prerequisites
 
