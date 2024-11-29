@@ -1,4 +1,4 @@
-### ServiceBookingSystem
+### ServiceBookingSystem(not yet finished)
 
 This is a a project that i've build following the Code Elevate video. Using Spring Security, JWT Token and Angular features, this is a robust application to book services. In this System, you can signup and/or login as Client or Company. Based on your roles, you can access different features: 
 
