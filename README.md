@@ -1,10 +1,10 @@
-# ServiceBookingSystem
+### ServiceBookingSystem
 
 This is a a project that i've build following the Code Elevate video. In this System, you can signup and/or login as Client or Company. Based on your roles 
 you can access different features: 
 
-- Company:  Post ads, view ads, edit ads, delete ads, approve the hire;
-- Client:   View ads, hire ads, view hired ads;
+- #Company:  Post ads, view ads, edit ads, delete ads, approve the hire;
+- #Client:   View ads, hire ads, view hired ads;
 
 ## Technologies Used
 
